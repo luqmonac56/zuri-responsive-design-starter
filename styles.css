@@ -350,8 +350,36 @@ div.footer h6 {
 and (max-width: 1024px)
 {
 
+    div.hero-section {
+        padding: 5rem 0;
+    }
+
+    div.hero-content-heading h3 {
+        width: 100vw;
+        margin: 0 auto 30px auto;        
+    }
+
+    div.hero-content-heading p {
+        width: 100%;
+        padding: 0 1rem ;
+    }
+
     div.hero-background-pos{
         display: none;
+    }
+
+    div.hero-background {
+        background: #f0f0f0;
+        padding: 60px 0 0 0;
+        display: block;
+    }
+
+    div.background {
+        margin: 0 auto;
+        width: 80%;
+        max-width: 580px;
+        height:100%;
+        padding: 0 1rem 1rem 0;
     }
  
     div.snapshot-box-content {
