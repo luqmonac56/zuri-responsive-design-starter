@@ -345,3 +345,120 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (min-width: 608px)
+and (max-width: 1024px)
+{
+
+    div.hero-background-pos{
+        display: none;
+    }
+ 
+    div.snapshot-box-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+
+
+
+}
+
+
+@media screen and (max-width: 608px){
+
+    div.nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.logo {
+        margin-bottom: 1rem;
+    }
+   
+    div.hero-section {
+        padding: 2rem 0;
+    }
+
+    div.hero-content-heading h3 {
+        width: 100vw;
+        margin: 0 auto 30px auto;        
+    }
+
+    div.hero-content-heading p {
+        width: 100%;
+        padding: 0 1rem ;
+    }
+
+    div.hero-background {
+        background: #f0f0f0;
+        padding: 0;
+        display: block;
+        margin-top: 50px;
+    }
+
+    div.background {
+        margin: 0 auto;
+        width: 90%;
+        height:100%;
+    }
+    
+    div.background h4 {
+        padding: 1rem;
+    }
+    
+    div.background p {
+       padding: 0 0 1rem 0;
+       width: 100%;
+    }
+
+    div.hero-background-pos{
+        display: none;
+    }
+
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    div.gallery-section {
+        padding: 1rem;
+    }
+    
+    div.gallery-content p {
+        width: 100%;
+        letter-spacing: 2px;
+        padding-top: 0.8rem;
+     
+    }
+
+    div.footer {
+        padding: 1rem;
+    }
+
+    div.footer-input {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+    
+    input[type="email"] {
+        width: 90%;
+    }
+    
+    textarea {
+        width: 90%;
+    }
+
+
+
+
+
+}
